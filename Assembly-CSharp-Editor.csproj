@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{40EBCB05-7E4A-FF04-E30A-05BE9DB40FC1}</ProjectGuid>
+	<ProjectGuid>{8765E276-753F-74B2-BC93-3865B615487E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,16 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GameJoltAPI\Editor\GJAPIEditor.cs" />
-     <Compile Include="Assets\GameJoltAPI\Editor\GJAPIHelperEditor.cs" />
-     <Compile Include="Assets\GameJoltAPI\Editor\GJHNotificationsManagerEditor.cs" />
-     <Compile Include="Assets\GameJoltAPI\Editor\GJHWindowsManagerEditor.cs" />
      <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
      <Compile Include="Assets\OVR\Editor\OVRGameView.cs" />
      <Compile Include="Assets\OVR\Editor\OVRPrefabs.cs" />
      <Compile Include="Assets\OVR\Editor\OVRShimLoader.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
-     <None Include="Assets\GameJoltAPI\README.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
@@ -72,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{27A58257-1F92-DF68-1DB2-A1B37E37AD63}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{B993B489-AD2E-8730-5587-30930C5B3455}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
